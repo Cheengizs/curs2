@@ -1,0 +1,6 @@
+@CheengizsStore_HostAddress = http://localhost:5212
+
+GET {{CheengizsStore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

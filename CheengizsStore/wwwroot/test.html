@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="" alt="" class="test" />
+
+    <script>
+      async function getPhotoPath() {
+        const response = await fetch("http://192.168.1.107:5212/api/v1/1/1");
+        return await response.text(); // or response.json() if it's JSON
+      }
+
+      async function setImage() {
+        const img = document.querySelector(".test");
+        const photoPath = await getPhotoPath();
+        img.src = photoPath;
+      }
+
+      setImage();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input placeholder="login" type="text" class="login" />
+    <input type="text" class="password" />
+    <button class="sendOptions">Ляпни сука</button>
+
+    <script>
+      document
+        .querySelector(".sendOptions")
+        .addEventListener("click", async () => {
+          const login = document.querySelector(".login").value;
+          const password = document.querySelector(".password").value;
+
+          try {
+            const response = await fetch(
+              "http://localhost:5212/api/v1/register",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ login, password }),
+              }
+            );
+
+            const text = await response.text(); // читаем как текст
+
+            try {
+              const json = text ? JSON.parse(text) : null;
+              alert("Ответ сервера:\n" + JSON.stringify(json, null, 2));
+            } catch {
+              alert("Не JSON. Ответ сервера:\n" + text);
+            }
+          } catch (err) {
+            console.error("Ошибка при запросе:", err);
+            alert("Ошибка запроса: " + err.message);
+          }
+        });
+    </script>
+  </body>
+</html>

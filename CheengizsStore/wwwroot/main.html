@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheengizsStore - Nike Initiator</title>
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="main.html">CheengizsStore</a>
+        </div>
+        <nav class="main-nav">
+          <a href="news.html">Новости</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="header-icons">
+          <i class="fas fa-search"></i>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="account.html"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <section class="product-showcase">
+        <div class="slider">
+          <img
+            id="product-image"
+            src="/photos/nike/model/men/nike_initiator_white_black.jpg"
+            alt="Nike Initiator"
+          />
+          <div class="slider-controls">
+            <span onclick="prevSlide()">&#10094;</span>
+            <span onclick="nextSlide()">&#10095;</span>
+          </div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="text">
+          <h1>NIKE INITIATOR</h1>
+          <p>
+            Ретро-кроссовки в стиле 2000-х с дышащим верхом из сетки и
+            синтетическими накладками. Амортизирующая подошва обеспечивает
+            комфорт при ходьбе и лёгком беге. Универсальный дизайн делает их
+            отличным выбором для повседневной носки.
+          </p>
+        </div>
+      </section>
+
+      <!-- 🔻 ТУТ МОЖНО ВСТАВИТЬ ДОПОЛНИТЕЛЬНЫЙ КОНТЕНТ -->
+      <section class="extra-section">
+        <!-- Вставь сюда свой HTML позже -->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>CheengizsStore</h2>
+          <p>Оригинальная обувь. Быстрая доставка. Надёжный магазин.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Мы в соцсетях</h3>
+          <div class="social-icons">
+            <a
+              href="https://t.me/yourchannel"
+              target="_blank"
+              aria-label="Telegram"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              href="https://youtube.com/yourchannel"
+              target="_blank"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://instagram.com/yourprofile"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CheengizsStore — Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

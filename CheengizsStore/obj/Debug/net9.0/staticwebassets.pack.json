@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\To_Fix.md",
+      "PackagePath": "staticwebassets\\To_Fix.md"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\login.html",
+      "PackagePath": "staticwebassets\\account\\login.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\register.html",
+      "PackagePath": "staticwebassets\\account\\register.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html",
+      "PackagePath": "staticwebassets\\catalog.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\main.html",
+      "PackagePath": "staticwebassets\\main.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\black.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\black.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\black_top.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\black_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\kid.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\kid.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\kid_top.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\kid_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\red.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\red.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\red_top.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\red_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\white.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\white.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\white_top.png",
+      "PackagePath": "staticwebassets\\photos\\adidas\\white_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\black.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\black.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\black_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\black_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\blue.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\blue.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\blue_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\blue_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\breeze.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\breeze.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\breeze_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\breeze_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\cream.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\cream.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\cream_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\cream_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\gray.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\gray.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\gray_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\gray_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\gray_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\gray_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\kid.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\kid.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\kid_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\kid_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\pink.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\pink.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\pink_top.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\pink_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\white.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\white.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\asics\\white_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\asics\\white_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\angora.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\angora.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\angora_top.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\angora_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\gray.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\gray.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\gray_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\gray_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\gray_top.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\gray_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\white.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\white.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\newBalance\\white_top.png",
+      "PackagePath": "staticwebassets\\photos\\newBalance\\white_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force_black.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force_black.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force_black_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force_black_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force_black_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force_black_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_force_top_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_force_top_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_summit.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_summit.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_summit_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_summit_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_summit_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_summit_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_white.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_white.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_white_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_white_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_air_white_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_air_white_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_pink.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_pink.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_pink_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_pink_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_pink_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_pink_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_white.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_white.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_white_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_white_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_blazer_white_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_blazer_white_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_obsidian.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_obsidian.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_obsidian_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_obsidian_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_obsidian_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_obsidian_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_red.jpg",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_red.jpg"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_red.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_red.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_red_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_red_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_red_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_red_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black.jpg",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black.jpg"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black_main.jpg",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black_main.jpg"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black_main.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black_main.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black_top.jpg",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black_top.jpg"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_initiator_white_black_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_initiator_white_black_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_jordan.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_jordan.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_jordan_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_jordan_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\nike\\men\\nike_jordan_top.png",
+      "PackagePath": "staticwebassets\\photos\\nike\\men\\nike_jordan_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\noPhoto.png",
+      "PackagePath": "staticwebassets\\photos\\noPhoto.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\mayze.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\mayze.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\mayze_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\mayze_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\mayze_top.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\mayze_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\playmobil.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\playmobil.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\playmobil_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\playmobil_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\playmobil_top.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\playmobil_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat_red.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_red.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat_red_notMain.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_red_notMain.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat_red_top.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_red_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\puma\\puma_speedcat_top.png",
+      "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_top.png"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
+      "PackagePath": "staticwebassets\\scripts\\catalog.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\scripts\\main.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\sneakersToAdd",
+      "PackagePath": "staticwebassets"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css",
+      "PackagePath": "staticwebassets\\styles\\catalog.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\main.css",
+      "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\test.html",
+      "PackagePath": "staticwebassets\\test.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CheengizsStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CheengizsStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CheengizsStore.props",
+      "PackagePath": "build\\CheengizsStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CheengizsStore.props",
+      "PackagePath": "buildMultiTargeting\\CheengizsStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CheengizsStore.props",
+      "PackagePath": "buildTransitive\\CheengizsStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
