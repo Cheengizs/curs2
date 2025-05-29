@@ -228,10 +228,10 @@ function applyUrlParamsToFilters(params) {
   }
 }
 
-let filters = {};
+let filters = { pageNumber: 1 };
 
 function redir() {
-  filters = {};
+  filters = { pageNumber: 1 };
 
   const inpMinPrice = document.querySelector("#price-field-min");
   if (inpMinPrice.value.trim()) filters["minPrice"] = inpMinPrice.value;
@@ -242,7 +242,7 @@ function redir() {
   filters["typeId"] = getSelectedTypeIds();
   filters["colorId"] = getSelectedColorIds();
   filters["materialId"] = getSelectedMaterialIds();
-
+  filters["pageNumber"] = 1;
   filters["pageSize"] = document.querySelector("#items-count").value;
   filters["orderBy"] = document.querySelector("#sort-select").value;
 
@@ -266,7 +266,10 @@ document.querySelector(".apply-btn").addEventListener("click", () => redir());
 
 function renderSneakers(sneakers) {
   const catalog = document.querySelector(".catalog");
-  catalog.innerHTML = "";
+  if (newPage) {
+    catalog.innerHTML = "";
+    newPage = false;
+  }
 
   if (filters["view"] == "grid") {
     sneakers.forEach((sneaker) => {
@@ -295,13 +298,6 @@ function renderSneakers(sneakers) {
         window.location.href = `/product.html?productId=${sneaker.id}`; // раскомментировать для реального перехода
       });
 
-      // Отдельный обработчик для кнопки "добавить в корзину"
-      const btn = card.querySelector(".add-to-cart-btn");
-      btn.addEventListener("click", (event) => {
-        event.stopPropagation(); // чтобы клик не сработал на карточку
-        console.log(`Добавить в корзину товар с id: ${sneaker.id}`);
-        // Здесь логика добавления в корзину
-      });
       catalog.appendChild(card);
     });
   } else {
@@ -334,14 +330,6 @@ function renderSneakers(sneakers) {
         window.location.href = `/product.html?productId=${sneaker.id}`; // раскомментировать для реального перехода
       });
 
-      // Клик по кнопке добавления в корзину
-      const btn = item.querySelector(".sneaker-list-add-btn");
-      btn.addEventListener("click", (event) => {
-        event.stopPropagation();
-        console.log(`Добавить в корзину товар с id: ${sneaker.id}`);
-        // Добавить в корзину
-      });
-
       catalog.appendChild(item);
     });
   }
@@ -365,4 +353,21 @@ listBtnView.addEventListener("click", async () => {
     listBtnView.classList.add("active");
     activeBtnView = listBtnView;
   }
+});
+
+let newPage = false;
+
+const btnMore = document.querySelector(".load-more-button");
+btnMore.addEventListener("click", async () => {
+  console.log(filters);
+  filters["pageNumber"] = Number(filters["pageNumber"]) || 1;
+  filters["pageNumber"]++;
+  console.log(filters);
+  const urlWithFilters = "http://192.168.1.107:5212/api/v1/catalog";
+  const queryString = buildQueryParams(filters);
+  console.log(queryString);
+
+  const fullUrl = `${urlWithFilters}?${queryString}`;
+  console.log(fullUrl);
+  fetchSneakers(fullUrl);
 });

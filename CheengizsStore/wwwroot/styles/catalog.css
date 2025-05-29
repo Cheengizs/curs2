@@ -565,6 +565,26 @@ select {
   background-color: #333;
 }
 
+.load-more-wrapper {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.load-more-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-button:hover {
+  background-color: #333;
+}
+
 /* Footer */
 .footer {
   background-color: #fff;

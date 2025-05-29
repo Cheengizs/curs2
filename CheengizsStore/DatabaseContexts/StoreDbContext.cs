@@ -26,7 +26,8 @@ public class StoreDbContext : DbContext
     public DbSet<SneakerProduct> SneakerProducts { get; set; }
     public DbSet<SneakerType> SneakerTypes { get; set; }
     public DbSet<Stock> Stocks { get; set; }
-
+    public DbSet<MailMessage> MailMessages { get; set; }
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Country>(entity =>
@@ -195,6 +196,10 @@ public class StoreDbContext : DbContext
             entity.HasIndex(e => e.AccountId);
             entity.HasOne(e => e.SneakerColor).WithMany(e => e.Orders).HasForeignKey(e => e.SneakerColorId);
         });
-        
+
+        modelBuilder.Entity<MailMessage>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+        });
     }
 }

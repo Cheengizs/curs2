@@ -1,0 +1,92 @@
+/* Контакты */
+.contact-section {
+  padding: 60px 10%;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.contact-section h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  margin-bottom: 40px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-info,
+.contact-form-container {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-info h2,
+.contact-form-container h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #000;
+}
+
+/* Форма */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #333;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+}

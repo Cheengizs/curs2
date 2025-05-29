@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\To_Fix.md"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\login.html",
       "PackagePath": "staticwebassets\\account\\login.html"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html",
       "PackagePath": "staticwebassets\\catalog.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\contacts.html",
+      "PackagePath": "staticwebassets\\contacts.html"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\main.html",
@@ -349,6 +357,10 @@
       "PackagePath": "staticwebassets\\scripts\\catalog.js"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\contacts.js",
+      "PackagePath": "staticwebassets\\scripts\\contacts.js"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\main.js",
       "PackagePath": "staticwebassets\\scripts\\main.js"
     },
@@ -361,8 +373,16 @@
       "PackagePath": "staticwebassets"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\about.css",
+      "PackagePath": "staticwebassets\\styles\\about.css"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css",
       "PackagePath": "staticwebassets\\styles\\catalog.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\contacts.css",
+      "PackagePath": "staticwebassets\\styles\\contacts.css"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\main.css",

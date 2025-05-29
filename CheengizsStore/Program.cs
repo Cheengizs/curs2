@@ -10,9 +10,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using CheengizsStore.Controllers;
+using CheengizsStore.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 SymmetricSecurityKey symmetricSecurityKey;
 try
@@ -144,5 +147,7 @@ app.MapGroup("/api/v1/sneaker-photo").MapSneakerPhotosEndpoints();
 app.MapGroup("/api/v1/catalog").MapCatalogEndpoints();
 
 app.MapGroup("/api/v1/stocks").MapStocksEndpoints();
+
+app.MapGroup("/api/v1/email").MapEmailEnpdpoints();
 
 app.Run();
