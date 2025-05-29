@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0J8u0yMwnRmxMhPyKwWMEbAyr0Rbq42bmEn1YKzaHzk=",
+  "Hash": "mhgGTEJUzmYv1K8txFPVQ9rszlv2vk3yTkmDPgXtTGQ=",
   "Source": "CheengizsStore",
   "BasePath": "_content/CheengizsStore",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-s1lsqqs3jl.gz",
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-o39ohw56k2.gz",
       "SourceId": "CheengizsStore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CheengizsStore",
-      "RelativePath": "styles/catalog#[.{fingerprint=s1lsqqs3jl}]?.css.gz",
+      "RelativePath": "styles/catalog#[.{fingerprint=o39ohw56k2}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yqse4vgyis",
-      "Integrity": "CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY=",
+      "Fingerprint": "jjo43zgoe5",
+      "Integrity": "P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css"
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\main.css"
     },
     {
-      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-o8tjeho8sq.gz",
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-my9e15fgau.gz",
       "SourceId": "CheengizsStore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CheengizsStore",
-      "RelativePath": "scripts/catalog#[.{fingerprint=o8tjeho8sq}]?.js.gz",
+      "RelativePath": "scripts/catalog#[.{fingerprint=my9e15fgau}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,11 +73,32 @@
       "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qnsjw0e5p5",
-      "Integrity": "KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk=",
+      "Fingerprint": "b8ormm9t9m",
+      "Integrity": "lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7clf3nb9op-tbgc2z73qx.gz",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "styles/product#[.{fingerprint=tbgc2z73qx}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vidjy8xcm3",
+      "Integrity": "N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css"
     },
     {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7ebuzhdhse-wfn7t17w20.gz",
@@ -143,12 +164,12 @@
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\To_Fix.md"
     },
     {
-      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-owjcpb18da.gz",
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-yv1n5evwxk.gz",
       "SourceId": "CheengizsStore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CheengizsStore",
-      "RelativePath": "catalog#[.{fingerprint=owjcpb18da}]?.html.gz",
+      "RelativePath": "catalog#[.{fingerprint=yv1n5evwxk}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +178,8 @@
       "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "nq0186wcc0",
-      "Integrity": "AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw=",
+      "Fingerprint": "5kpe85lfoo",
+      "Integrity": "5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html"
@@ -206,6 +227,48 @@
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\test.html"
     },
     {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\fv76umajxa-4zlmf1qp8y.gz",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "product#[.{fingerprint=4zlmf1qp8y}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pz2hq2b4hd",
+      "Integrity": "m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\j5scr74v80-0catozxa9d.gz",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "scripts/product#[.{fingerprint=0catozxa9d}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ehvrwxk80",
+      "Integrity": "y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js"
+    },
+    {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\lw60tb4zrb-u4den3vydk.gz",
       "SourceId": "CheengizsStore",
       "SourceType": "Discovered",
@@ -225,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\login.html"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\wq121e3k0c-d33wwxfltk.gz",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "news#[.{fingerprint=d33wwxfltk}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ij449byq31",
+      "Integrity": "/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html"
     },
     {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\login.html",
@@ -283,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "owjcpb18da",
-      "Integrity": "yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8=",
+      "Fingerprint": "yv1n5evwxk",
+      "Integrity": "TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\catalog.html"
@@ -309,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.html"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "news#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d33wwxfltk",
+      "Integrity": "qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\news.html"
     },
     {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\black_top.png",
@@ -1970,6 +2075,27 @@
       "OriginalItemSpec": "wwwroot\\photos\\puma\\puma_speedcat.png"
     },
     {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "product#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4zlmf1qp8y",
+      "Integrity": "QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\product.html"
+    },
+    {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
       "SourceId": "CheengizsStore",
       "SourceType": "Discovered",
@@ -1984,8 +2110,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o8tjeho8sq",
-      "Integrity": "yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY=",
+      "Fingerprint": "my9e15fgau",
+      "Integrity": "EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scripts\\catalog.js"
@@ -2010,6 +2136,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scripts\\main.js"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "scripts/product#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0catozxa9d",
+      "Integrity": "kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts\\product.js"
     },
     {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\sneakersToAdd",
@@ -2047,8 +2194,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s1lsqqs3jl",
-      "Integrity": "cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ=",
+      "Fingerprint": "o39ohw56k2",
+      "Integrity": "FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles\\catalog.css"
@@ -2073,6 +2220,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles\\main.css"
+    },
+    {
+      "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css",
+      "SourceId": "CheengizsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\",
+      "BasePath": "_content/CheengizsStore",
+      "RelativePath": "styles/product#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tbgc2z73qx",
+      "Integrity": "qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles\\product.css"
     },
     {
       "Identity": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\test.html",
@@ -2716,12 +2884,12 @@
     },
     {
       "Route": "catalog.html",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-owjcpb18da.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-yv1n5evwxk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000520291363"
+          "Quality": "0.000513347023"
         }
       ],
       "ResponseHeaders": [
@@ -2731,15 +2899,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1921"
+          "Value": "1947"
         },
         {
           "Name": "ETag",
-          "Value": "\"AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw=\""
+          "Value": "\"5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2759,13 +2927,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8=\""
+          "Value": "W/\"TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8="
+          "Value": "sha256-TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8="
         }
       ]
     },
@@ -2780,7 +2948,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6516"
+          "Value": "6621"
         },
         {
           "Name": "Content-Type",
@@ -2788,11 +2956,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8=\""
+          "Value": "\"TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2802,13 +2970,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8="
+          "Value": "sha256-TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8="
         }
       ]
     },
     {
       "Route": "catalog.html.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-owjcpb18da.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-yv1n5evwxk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2817,7 +2985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1921"
+          "Value": "1947"
         },
         {
           "Name": "Content-Type",
@@ -2825,11 +2993,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw=\""
+          "Value": "\"5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2847,18 +3015,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw="
+          "Value": "sha256-5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q="
         }
       ]
     },
     {
-      "Route": "catalog.owjcpb18da.html",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-owjcpb18da.gz",
+      "Route": "catalog.yv1n5evwxk.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-yv1n5evwxk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000520291363"
+          "Quality": "0.000513347023"
         }
       ],
       "ResponseHeaders": [
@@ -2868,15 +3036,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1921"
+          "Value": "1947"
         },
         {
           "Name": "ETag",
-          "Value": "\"AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw=\""
+          "Value": "\"5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2896,13 +3064,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8=\""
+          "Value": "W/\"TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "owjcpb18da"
+          "Value": "yv1n5evwxk"
         },
         {
           "Name": "label",
@@ -2910,12 +3078,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8="
+          "Value": "sha256-TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8="
         }
       ]
     },
     {
-      "Route": "catalog.owjcpb18da.html",
+      "Route": "catalog.yv1n5evwxk.html",
       "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2925,7 +3093,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6516"
+          "Value": "6621"
         },
         {
           "Name": "Content-Type",
@@ -2933,11 +3101,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8=\""
+          "Value": "\"TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2947,7 +3115,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "owjcpb18da"
+          "Value": "yv1n5evwxk"
         },
         {
           "Name": "label",
@@ -2955,13 +3123,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yMTk3JogILsv5026dWwlahNE7K7uN1Gyb1SWoDtW6d8="
+          "Value": "sha256-TnZR0q1cN8N5IZXViRsvEc0y3Hh+dZZzPGcgsqOhsq8="
         }
       ]
     },
     {
-      "Route": "catalog.owjcpb18da.html.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-owjcpb18da.gz",
+      "Route": "catalog.yv1n5evwxk.html.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\er8qrd91k4-yv1n5evwxk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2970,7 +3138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1921"
+          "Value": "1947"
         },
         {
           "Name": "Content-Type",
@@ -2978,11 +3146,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw=\""
+          "Value": "\"5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:04:55 GMT"
+          "Value": "Thu, 29 May 2025 03:37:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3000,7 +3168,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "owjcpb18da"
+          "Value": "yv1n5evwxk"
         },
         {
           "Name": "label",
@@ -3008,7 +3176,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AWZ51C9MqMec/Zt+LCqUlBBcEwo8zUoR1S1qx9Zavmw="
+          "Value": "sha256-5cR211mgVUV0Ty2BljZy4vLUM80qdwIqzSwcKxss89Q="
         }
       ]
     },
@@ -3307,6 +3475,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-onf+99/opVV+RIET8chzmqZaAlV+T/DOt5wgBT907KU="
+        }
+      ]
+    },
+    {
+      "Route": "news.d33wwxfltk.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\wq121e3k0c-d33wwxfltk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000500500501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d33wwxfltk"
+        },
+        {
+          "Name": "label",
+          "Value": "news.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg="
+        }
+      ]
+    },
+    {
+      "Route": "news.d33wwxfltk.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d33wwxfltk"
+        },
+        {
+          "Name": "label",
+          "Value": "news.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg="
+        }
+      ]
+    },
+    {
+      "Route": "news.d33wwxfltk.html.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\wq121e3k0c-d33wwxfltk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d33wwxfltk"
+        },
+        {
+          "Name": "label",
+          "Value": "news.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk="
+        }
+      ]
+    },
+    {
+      "Route": "news.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\wq121e3k0c-d33wwxfltk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000500500501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg="
+        }
+      ]
+    },
+    {
+      "Route": "news.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qUukeRRVUa4kIvH/vKAiFE85c1OYfCXxjXdwdUfLpXg="
+        }
+      ]
+    },
+    {
+      "Route": "news.html.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\wq121e3k0c-d33wwxfltk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 05:28:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/kSIns+NxG8iFz8pIqooZDY2rkBTCK/HyKFl8sBXJKk="
         }
       ]
     },
@@ -9789,13 +10255,13 @@
       ]
     },
     {
-      "Route": "scripts/catalog.js",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-o8tjeho8sq.gz",
+      "Route": "product.4zlmf1qp8y.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\fv76umajxa-4zlmf1qp8y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000446428571"
+          "Quality": "0.000559910414"
         }
       ],
       "ResponseHeaders": [
@@ -9805,15 +10271,313 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2239"
+          "Value": "1785"
         },
         {
           "Name": "ETag",
-          "Value": "\"KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk=\""
+          "Value": "\"m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4zlmf1qp8y"
+        },
+        {
+          "Name": "label",
+          "Value": "product.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE="
+        }
+      ]
+    },
+    {
+      "Route": "product.4zlmf1qp8y.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4zlmf1qp8y"
+        },
+        {
+          "Name": "label",
+          "Value": "product.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE="
+        }
+      ]
+    },
+    {
+      "Route": "product.4zlmf1qp8y.html.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\fv76umajxa-4zlmf1qp8y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4zlmf1qp8y"
+        },
+        {
+          "Name": "label",
+          "Value": "product.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE="
+        }
+      ]
+    },
+    {
+      "Route": "product.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\fv76umajxa-4zlmf1qp8y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000559910414"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1785"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE="
+        }
+      ]
+    },
+    {
+      "Route": "product.html",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPRIaVw5pgPNC+1CeTjVnTQLK+FG+xlfsMiQ0cvdogE="
+        }
+      ]
+    },
+    {
+      "Route": "product.html.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\fv76umajxa-4zlmf1qp8y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m4TATs4PT3TLqVK4WAjokNrPey38XzgvCOqhWvmX+YE="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/catalog.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-my9e15fgau.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000346500347"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2885"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9833,13 +10597,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY=\""
+          "Value": "W/\"EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY="
+          "Value": "sha256-EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g="
         }
       ]
     },
@@ -9854,7 +10618,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9048"
+          "Value": "12581"
         },
         {
           "Name": "Content-Type",
@@ -9862,11 +10626,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY=\""
+          "Value": "\"EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9876,13 +10640,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY="
+          "Value": "sha256-EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g="
         }
       ]
     },
     {
       "Route": "scripts/catalog.js.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-o8tjeho8sq.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-my9e15fgau.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9891,7 +10655,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2239"
+          "Value": "2885"
         },
         {
           "Name": "Content-Type",
@@ -9899,11 +10663,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk=\""
+          "Value": "\"lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9921,18 +10685,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk="
+          "Value": "sha256-lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA="
         }
       ]
     },
     {
-      "Route": "scripts/catalog.o8tjeho8sq.js",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-o8tjeho8sq.gz",
+      "Route": "scripts/catalog.my9e15fgau.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-my9e15fgau.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000446428571"
+          "Quality": "0.000346500347"
         }
       ],
       "ResponseHeaders": [
@@ -9942,15 +10706,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2239"
+          "Value": "2885"
         },
         {
           "Name": "ETag",
-          "Value": "\"KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk=\""
+          "Value": "\"lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9970,13 +10734,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY=\""
+          "Value": "W/\"EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o8tjeho8sq"
+          "Value": "my9e15fgau"
         },
         {
           "Name": "label",
@@ -9984,12 +10748,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY="
+          "Value": "sha256-EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g="
         }
       ]
     },
     {
-      "Route": "scripts/catalog.o8tjeho8sq.js",
+      "Route": "scripts/catalog.my9e15fgau.js",
       "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9999,7 +10763,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9048"
+          "Value": "12581"
         },
         {
           "Name": "Content-Type",
@@ -10007,11 +10771,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY=\""
+          "Value": "\"EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10021,7 +10785,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o8tjeho8sq"
+          "Value": "my9e15fgau"
         },
         {
           "Name": "label",
@@ -10029,13 +10793,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yEzp2WSuuHZp5qIT4jRohs2YSNSvAjEGBS8+ZkxzIBY="
+          "Value": "sha256-EhFfuFJzyALigp/V6nIhBJ7o7cX9SlB7s6GJ/orVT1g="
         }
       ]
     },
     {
-      "Route": "scripts/catalog.o8tjeho8sq.js.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-o8tjeho8sq.gz",
+      "Route": "scripts/catalog.my9e15fgau.js.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\6juqk401bt-my9e15fgau.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10044,7 +10808,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2239"
+          "Value": "2885"
         },
         {
           "Name": "Content-Type",
@@ -10052,11 +10816,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk=\""
+          "Value": "\"lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 02:06:09 GMT"
+          "Value": "Thu, 29 May 2025 14:51:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10074,7 +10838,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o8tjeho8sq"
+          "Value": "my9e15fgau"
         },
         {
           "Name": "label",
@@ -10082,7 +10846,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KqjG76j4aKbf1Ymmi9s5g2jSp5tufAjxghNoLYKG0Qk="
+          "Value": "sha256-lY64Q09s+8fXDPZCK8DRYZP+3YqGNXoxP2MJupyMtyA="
         }
       ]
     },
@@ -10385,6 +11149,304 @@
       ]
     },
     {
+      "Route": "scripts/product.0catozxa9d.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\j5scr74v80-0catozxa9d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000556483027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1796"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0catozxa9d"
+        },
+        {
+          "Name": "label",
+          "Value": "scripts/product.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/product.0catozxa9d.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0catozxa9d"
+        },
+        {
+          "Name": "label",
+          "Value": "scripts/product.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/product.0catozxa9d.js.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\j5scr74v80-0catozxa9d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0catozxa9d"
+        },
+        {
+          "Name": "label",
+          "Value": "scripts/product.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/product.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\j5scr74v80-0catozxa9d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000556483027"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1796"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/product.js",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5482"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kO2swsvWMb8nQj40G0lATvKeCah4r4J6X5wxgfGesIk="
+        }
+      ]
+    },
+    {
+      "Route": "scripts/product.js.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\j5scr74v80-0catozxa9d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 15:15:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y/TkMT1HBV0wEEyOi3TJKQzUIIwCSdPe4k4KpMpxip8="
+        }
+      ]
+    },
+    {
       "Route": "sneakersToAdd",
       "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\sneakersToAdd",
       "Selectors": [],
@@ -10468,12 +11530,12 @@
     },
     {
       "Route": "styles/catalog.css",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-s1lsqqs3jl.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-o39ohw56k2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000428265525"
+          "Quality": "0.000368459838"
         }
       ],
       "ResponseHeaders": [
@@ -10483,15 +11545,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2334"
+          "Value": "2713"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY=\""
+          "Value": "\"P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10511,13 +11573,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ=\""
+          "Value": "W/\"FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ="
+          "Value": "sha256-FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI="
         }
       ]
     },
@@ -10532,7 +11594,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11432"
+          "Value": "13457"
         },
         {
           "Name": "Content-Type",
@@ -10540,11 +11602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ=\""
+          "Value": "\"FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10554,13 +11616,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ="
+          "Value": "sha256-FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI="
         }
       ]
     },
     {
       "Route": "styles/catalog.css.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-s1lsqqs3jl.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-o39ohw56k2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10569,7 +11631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2334"
+          "Value": "2713"
         },
         {
           "Name": "Content-Type",
@@ -10577,11 +11639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY=\""
+          "Value": "\"P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10599,18 +11661,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY="
+          "Value": "sha256-P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs="
         }
       ]
     },
     {
-      "Route": "styles/catalog.s1lsqqs3jl.css",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-s1lsqqs3jl.gz",
+      "Route": "styles/catalog.o39ohw56k2.css",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-o39ohw56k2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000428265525"
+          "Quality": "0.000368459838"
         }
       ],
       "ResponseHeaders": [
@@ -10620,15 +11682,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2334"
+          "Value": "2713"
         },
         {
           "Name": "ETag",
-          "Value": "\"CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY=\""
+          "Value": "\"P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10648,13 +11710,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ=\""
+          "Value": "W/\"FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1lsqqs3jl"
+          "Value": "o39ohw56k2"
         },
         {
           "Name": "label",
@@ -10662,12 +11724,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ="
+          "Value": "sha256-FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI="
         }
       ]
     },
     {
-      "Route": "styles/catalog.s1lsqqs3jl.css",
+      "Route": "styles/catalog.o39ohw56k2.css",
       "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10677,7 +11739,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11432"
+          "Value": "13457"
         },
         {
           "Name": "Content-Type",
@@ -10685,11 +11747,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ=\""
+          "Value": "\"FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10699,7 +11761,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1lsqqs3jl"
+          "Value": "o39ohw56k2"
         },
         {
           "Name": "label",
@@ -10707,13 +11769,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cCSF0VaVkZKRFcOBDb59qhY04Bf4zdLEUNVj/t3mfpQ="
+          "Value": "sha256-FEV2ZV5Orh5OPnP197iP+iAjSgi1aw+aF/OaE+6AcbI="
         }
       ]
     },
     {
-      "Route": "styles/catalog.s1lsqqs3jl.css.gz",
-      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-s1lsqqs3jl.gz",
+      "Route": "styles/catalog.o39ohw56k2.css.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\16fb3tepge-o39ohw56k2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10722,7 +11784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2334"
+          "Value": "2713"
         },
         {
           "Name": "Content-Type",
@@ -10730,11 +11792,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY=\""
+          "Value": "\"P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 01:49:14 GMT"
+          "Value": "Thu, 29 May 2025 03:27:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10752,7 +11814,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1lsqqs3jl"
+          "Value": "o39ohw56k2"
         },
         {
           "Name": "label",
@@ -10760,7 +11822,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CmlS+2eqibJa/6ABXiKz8AuQEwSvQhjgn3evX25nctY="
+          "Value": "sha256-P6TNNJu/9dgVYxIJgiRF+Eqe+zeKRJQ0fEU97VtLczs="
         }
       ]
     },
@@ -10789,7 +11851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10842,7 +11904,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10879,7 +11941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10926,7 +11988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10987,7 +12049,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11032,7 +12094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 12:03:49 GMT"
+          "Value": "Thu, 29 May 2025 03:12:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11059,6 +12121,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-ocWydeTy0GkIkDMN2LP0WraXjlES7xJHNInrzw7l8KA="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.css",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7clf3nb9op-tbgc2z73qx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000502260171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1990"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.css",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.css.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7clf3nb9op-tbgc2z73qx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.tbgc2z73qx.css",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7clf3nb9op-tbgc2z73qx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000502260171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1990"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbgc2z73qx"
+        },
+        {
+          "Name": "label",
+          "Value": "styles/product.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.tbgc2z73qx.css",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbgc2z73qx"
+        },
+        {
+          "Name": "label",
+          "Value": "styles/product.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qbvCDPHd2R1MHhDcdHXQQWWNl4r+euAGXUmEq3OCRYU="
+        }
+      ]
+    },
+    {
+      "Route": "styles/product.tbgc2z73qx.css.gz",
+      "AssetFile": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\obj\\Debug\\net9.0\\compressed\\7clf3nb9op-tbgc2z73qx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 14:42:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbgc2z73qx"
+        },
+        {
+          "Name": "label",
+          "Value": "styles/product.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N10Ywv8FRxEogkd3Waeay0IYScC7ZlsMfV/r6G8yYcc="
         }
       ]
     },

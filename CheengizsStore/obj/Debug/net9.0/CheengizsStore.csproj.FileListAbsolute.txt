@@ -150,6 +150,11 @@ D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\Newtonsoft.Json
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\c2fi3tjfac-7g3yxd4t8t.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\7ebuzhdhse-wfn7t17w20.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\fulh2tlixj-ru3fyzkh4d.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\er8qrd91k4-owjcpb18da.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\16fb3tepge-s1lsqqs3jl.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\6juqk401bt-o8tjeho8sq.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\CheengizsStore.sourcelink.json
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\er8qrd91k4-yv1n5evwxk.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\16fb3tepge-o39ohw56k2.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\wq121e3k0c-d33wwxfltk.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\fv76umajxa-4zlmf1qp8y.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\6juqk401bt-my9e15fgau.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\7clf3nb9op-tbgc2z73qx.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\j5scr74v80-0catozxa9d.gz

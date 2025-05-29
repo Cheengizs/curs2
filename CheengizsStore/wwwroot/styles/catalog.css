@@ -425,19 +425,22 @@ select {
 }
 
 .sneaker-image {
+  border-radius: 1rem; /* скругляем контейнер под фото */
+  overflow: hidden; /* чтобы скругление применялось к содержимому */
   width: 100%;
   aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   background-color: #f9f9f9;
 }
 
 .sneaker-image img {
+  border-radius: 1rem; /* скругляем само изображение */
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  display: block; /* убрать лишние пробелы под картинкой */
 }
 
 .sneaker-info {
@@ -450,9 +453,9 @@ select {
 .sneaker-name {
   font-weight: 500;
   color: #000;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal; /* разрешаем переносы */
+  overflow: visible; /* показываем весь текст */
+  text-overflow: unset; /* убираем многоточие */
 }
 
 .price-and-button {
@@ -480,6 +483,85 @@ select {
 }
 
 .add-to-cart-btn:hover {
+  background-color: #333;
+}
+
+.sneaker-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.sneaker-list-item:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sneaker-list-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sneaker-list-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+  display: block;
+}
+
+.sneaker-list-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sneaker-list-name {
+  font-weight: 600;
+  color: #000;
+  white-space: normal; /* Полный текст с переносом */
+}
+
+.sneaker-list-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.sneaker-list-price {
+  font-weight: 700;
+  color: #000;
+  white-space: nowrap;
+}
+
+.sneaker-list-add-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sneaker-list-add-btn:hover {
   background-color: #333;
 }
 

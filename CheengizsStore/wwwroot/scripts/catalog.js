@@ -90,19 +90,20 @@ async function fillMaterialListFilter(listToAdd) {
   }
 }
 
+let sneakersJson;
+
 async function fetchSneakers(url) {
   try {
     const response = await fetch(url);
 
     if (!response.ok) {
-      alert(url);
       throw new Error(`Ошибка: ${response.status}`);
     }
 
-    const data = await response.json();
+    sneakersJson = await response.json();
 
     // Предполагается, что сервер возвращает массив нужного формата
-    renderSneakers(data); // отрисовка карточек
+    renderSneakers(sneakersJson); // отрисовка карточек
   } catch (error) {
     console.error("Не удалось загрузить кроссовки:", error);
   }
@@ -213,6 +214,13 @@ function applyUrlParamsToFilters(params) {
     document.querySelector("#items-count").value = params.pageSize;
   if (params.orderBy)
     document.querySelector("#sort-select").value = params.orderBy;
+  if (params.view) {
+    if (params.view !== "grid") {
+      activeBtnView.classList.remove("active");
+      listBtnView.classList.add("active");
+      activeBtnView = listBtnView;
+    }
+  }
 
   if (params.inStock === "true") {
     const el = document.querySelector(".availability-item");
@@ -238,13 +246,16 @@ function redir() {
   filters["pageSize"] = document.querySelector("#items-count").value;
   filters["orderBy"] = document.querySelector("#sort-select").value;
 
+  const elView = document.querySelector("#grid-btn-view");
+  filters["view"] =
+    elView && elView.classList.contains("active") ? "grid" : "list";
+
   const el = document.querySelector(".availability-item");
   filters["inStock"] = el && el.classList.contains("active");
 
   const urlWithFilters = "http://192.168.1.107:5212/catalog.html";
   const queryString = buildQueryParams(filters);
   const fullUrl = `${urlWithFilters}?${queryString}`;
-  alert(fullUrl);
   window.location.href = fullUrl;
 }
 
@@ -255,27 +266,103 @@ document.querySelector(".apply-btn").addEventListener("click", () => redir());
 
 function renderSneakers(sneakers) {
   const catalog = document.querySelector(".catalog");
-  catalog.innerHTML = ""; // Очистить текущие карточки, если нужно перерисовать
+  catalog.innerHTML = "";
 
-  sneakers.forEach((sneaker) => {
-    const card = document.createElement("div");
-    card.className = "sneaker-card";
+  if (filters["view"] == "grid") {
+    sneakers.forEach((sneaker) => {
+      const card = document.createElement("div");
+      card.className = "sneaker-card";
 
-    card.innerHTML = `
-  <div class="sneaker-image">
-    <img src="${sneaker.photoPath}" alt="${sneaker.name}" />
-  </div>
-  <div class="sneaker-info">
-    <span class="sneaker-name">${sneaker.name}</span>
-    <div class="price-and-button">
+      card.innerHTML = `
+      <div class="sneaker-image">
+      <img src="${sneaker.photoPath}" alt="${sneaker.name}" />
+      </div>
+      <div class="sneaker-info">
+      <span class="sneaker-name">${sneaker.name}</span>
+      <div class="price-and-button">
       <span class="sneaker-price">${sneaker.price.toLocaleString(
         "ru-RU"
       )} руб.</span>
       <button class="add-to-cart-btn" data-id="${sneaker.id}">+</button>
-    </div>
-  </div>
-`;
+      </div>
+      </div>
+      `;
 
-    catalog.appendChild(card);
-  });
+      // Обработчик клика по карточке
+      card.addEventListener("click", () => {
+        // Например, переход на страницу товара
+        console.log(`Переход на страницу товара с id: ${sneaker.id}`);
+        window.location.href = `/product.html?productId=${sneaker.id}`; // раскомментировать для реального перехода
+      });
+
+      // Отдельный обработчик для кнопки "добавить в корзину"
+      const btn = card.querySelector(".add-to-cart-btn");
+      btn.addEventListener("click", (event) => {
+        event.stopPropagation(); // чтобы клик не сработал на карточку
+        console.log(`Добавить в корзину товар с id: ${sneaker.id}`);
+        // Здесь логика добавления в корзину
+      });
+      catalog.appendChild(card);
+    });
+  } else {
+    sneakers.forEach((sneaker) => {
+      const item = document.createElement("div");
+      item.className = "sneaker-list-item";
+
+      item.innerHTML = `
+      <div class="sneaker-list-image">
+        <img src="${sneaker.photoPath}" alt="${sneaker.name}" />
+      </div>
+      <div class="sneaker-list-info">
+        <div class="sneaker-list-name">${sneaker.name}</div>
+        <div class="sneaker-list-bottom-row">
+          <span class="sneaker-list-price">${sneaker.price.toLocaleString(
+            "ru-RU"
+          )} руб.</span>
+          <button class="sneaker-list-add-btn" data-id="${
+            sneaker.id
+          }">+</button>
+        </div>
+      </div>
+    `;
+
+      // Клик по всей карточке
+      item.addEventListener("click", () => {
+        console.log(
+          `Переход на страницу товара с id: ${sneaker.id}   /product.html?productId=${sneaker.id}`
+        );
+        window.location.href = `/product.html?productId=${sneaker.id}`; // раскомментировать для реального перехода
+      });
+
+      // Клик по кнопке добавления в корзину
+      const btn = item.querySelector(".sneaker-list-add-btn");
+      btn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        console.log(`Добавить в корзину товар с id: ${sneaker.id}`);
+        // Добавить в корзину
+      });
+
+      catalog.appendChild(item);
+    });
+  }
 }
+
+let activeBtnView = document.querySelector("#grid-btn-view");
+
+const gridBtnView = document.querySelector("#grid-btn-view");
+gridBtnView.addEventListener("click", async () => {
+  if (gridBtnView.id !== activeBtnView.id) {
+    activeBtnView.classList.remove("active");
+    gridBtnView.classList.add("active");
+    activeBtnView = gridBtnView;
+  }
+});
+
+const listBtnView = document.querySelector("#list-btn-view");
+listBtnView.addEventListener("click", async () => {
+  if (listBtnView.id !== activeBtnView.id) {
+    activeBtnView.classList.remove("active");
+    listBtnView.classList.add("active");
+    activeBtnView = listBtnView;
+  }
+});

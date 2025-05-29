@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Новости сайта</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fff;
+        color: #000;
+
+        /* max-width: 800px; */
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 600;
+      }
+
+      .news-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+      }
+
+      .news-card {
+        width: 100%;
+        max-width: 600px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: box-shadow 0.2s ease;
+      }
+
+      .news-card:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .news-date {
+        font-size: 0.85rem;
+        color: #555;
+        margin-bottom: 0.3rem;
+      }
+
+      .news-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .news-text {
+        font-size: 1rem;
+        line-height: 1.4;
+      }
+
+      main {
+        margin-bottom: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="main.html">CheengizsStore</a>
+        </div>
+        <nav class="main-nav">
+          <a href="news.html">Новости</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="header-icons">
+          <i class="fas fa-search"></i>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="account.html"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Новости сайта</h1>
+
+      <div class="news-list">
+        <article class="news-card">
+          <div class="news-date">29 мая 2025</div>
+          <div class="news-title">Добавлена новая коллекция кроссовок</div>
+          <p class="news-text">
+            Мы обновили каталог и добавили свежие модели от популярных брендов.
+            Теперь выбрать кроссовки стало ещё проще!
+          </p>
+        </article>
+
+        <article class="news-card">
+          <div class="news-date">20 мая 2025</div>
+          <div class="news-title">Оптимизация работы сайта</div>
+          <p class="news-text">
+            Улучшена производительность страниц, ускорена загрузка фотографий и
+            исправлены мелкие баги для комфортного использования.
+          </p>
+        </article>
+
+        <article class="news-card">
+          <div class="news-date">10 мая 2025</div>
+          <div class="news-title">Запущен раздел отзывов</div>
+          <p class="news-text">
+            Теперь вы можете оставлять комментарии и отзывы о понравившихся
+            моделях прямо на странице товара.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>CheengizsStore</h2>
+          <p>Оригинальная обувь. Быстрая доставка. Надёжный магазин.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Мы в соцсетях</h3>
+          <div class="social-icons">
+            <a
+              href="https://t.me/yourchannel"
+              target="_blank"
+              aria-label="Telegram"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              href="https://youtube.com/yourchannel"
+              target="_blank"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://instagram.com/yourprofile"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CheengizsStore — Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>

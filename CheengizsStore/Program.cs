@@ -139,10 +139,10 @@ app.MapGroup("/api/v1").MapSneakerColorsEndpoints();
 
 app.MapGroup("/api/v1/").MapSneakerProductsEndpoints();
 
-app.MapGroup("/api/v1/sneaker-to-sales").MapSneakerToSalesEndpoints();
-
 app.MapGroup("/api/v1/sneaker-photo").MapSneakerPhotosEndpoints();
 
 app.MapGroup("/api/v1/catalog").MapCatalogEndpoints();
+
+app.MapGroup("/api/v1/stocks").MapStocksEndpoints();
 
 app.Run();

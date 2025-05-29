@@ -9,7 +9,6 @@ public class SneakerProduct
     public Size Size { get; set; }
     public SneakerColor SneakerColor { get; set; }
     public Stock Stock { get; set; } 
-    
-    public List<SneakerToSale> SneakerToSales { get; set; }
     public List<Sale> Sales { get; set; }
+    public List<Cart> Carts { get; set; }
 }

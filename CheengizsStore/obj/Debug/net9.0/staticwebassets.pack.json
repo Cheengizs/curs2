@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\main.html"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\news.html",
+      "PackagePath": "staticwebassets\\news.html"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\photos\\adidas\\black.png",
       "PackagePath": "staticwebassets\\photos\\adidas\\black.png"
     },
@@ -337,12 +341,20 @@
       "PackagePath": "staticwebassets\\photos\\puma\\puma_speedcat_top.png"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\product.html",
+      "PackagePath": "staticwebassets\\product.html"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
       "PackagePath": "staticwebassets\\scripts\\catalog.js"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\main.js",
       "PackagePath": "staticwebassets\\scripts\\main.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\product.js",
+      "PackagePath": "staticwebassets\\scripts\\product.js"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\sneakersToAdd",
@@ -355,6 +367,10 @@
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\main.css",
       "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\product.css",
+      "PackagePath": "staticwebassets\\styles\\product.css"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\test.html",

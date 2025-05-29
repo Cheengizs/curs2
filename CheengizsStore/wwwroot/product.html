@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/product.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="main.html">CheengizsStore</a>
+        </div>
+        <nav class="main-nav">
+          <a href="news.html">Новости</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="header-icons">
+          <i class="fas fa-search"></i>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="account.html"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+
+    <main>
+      <div class="product-page-horizontal">
+        <!-- Левая колонка -->
+        <div class="product-gallery">
+          <div class="product-main-image">
+            <img src="" alt="Главное фото кроссовка" />
+          </div>
+          <div class="product-thumbnails"></div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="product-info">
+          <h1 class="product-name"></h1>
+          <div class="product-price"></div>
+
+          <div class="product-details">
+            <div>
+              <strong>Тип кроссовка:</strong> <span class="detail-type"></span>
+            </div>
+            <div>
+              <strong>Окрас:</strong> <span class="detail-colorway"></span>
+            </div>
+            <div>
+              <strong>Цвета:</strong> <span class="detail-colors"></span>
+            </div>
+            <div>
+              <strong>Материалы:</strong> <span class="detail-materials"></span>
+            </div>
+            <div>
+              <strong>Год выпуска:</strong>
+              <span class="detail-release-year"></span>
+            </div>
+            <div>
+              <strong>Производится сейчас:</strong>
+              <span class="detail-currently-made"></span>
+            </div>
+            <div>
+              <strong>Страна производства:</strong>
+              <span class="detail-country"></span>
+            </div>
+          </div>
+
+          <div class="product-sizes">
+            <h3>Размеры</h3>
+            <div class="sizes-list"></div>
+          </div>
+
+          <!-- Варианты окраса -->
+          <div class="colorways-section">
+            <h3>Другие расцветки</h3>
+            <div class="colorway-thumbnails">
+              <!-- Миниатюры других окрасов вставляются динамически -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Комментарии — отдельно снизу -->
+      <div class="product-comments">
+        <h3>Комментарии</h3>
+        <div class="comments-list"></div>
+        <form class="comment-form">
+          <textarea
+            placeholder="Оставьте ваш комментарий..."
+            rows="3"
+          ></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>CheengizsStore</h2>
+          <p>Оригинальная обувь. Быстрая доставка. Надёжный магазин.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Мы в соцсетях</h3>
+          <div class="social-icons">
+            <a
+              href="https://t.me/@Cheengizs"
+              target="_blank"
+              aria-label="Telegram"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              href="https://youtube.com/yourchannel"
+              target="_blank"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://instagram.com/yourprofile"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CheengizsStore — Все права защищены.</p>
+      </div>
+    </footer>
+    <script src="scripts/product.js"></script>
+  </body>
+</html>

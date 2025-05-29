@@ -8,6 +8,8 @@ public class SneakerColor
     public int SneakerId { get; set; }
     public string Coloration  { get; set; }
     
+    public decimal Price { get; set; }
+    
     public Sneaker Sneaker { get; set; }
     
     public List<Color> Colors { get; set; }

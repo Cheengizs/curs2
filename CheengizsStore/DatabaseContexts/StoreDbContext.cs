@@ -24,7 +24,6 @@ public class StoreDbContext : DbContext
     public DbSet<SneakerColor> SneakerColors { get; set; }
     public DbSet<SneakerPhoto> SneakerPhotos { get; set; }
     public DbSet<SneakerProduct> SneakerProducts { get; set; }
-    public DbSet<SneakerToSale> SneakerToSales { get; set; }
     public DbSet<SneakerType> SneakerTypes { get; set; }
     public DbSet<Stock> Stocks { get; set; }
 
@@ -116,6 +115,7 @@ public class StoreDbContext : DbContext
             entity.HasOne(e => e.Sneaker).WithMany(e => e.SneakerColors).HasForeignKey(e => e.SneakerId);
             entity.HasMany(e => e.Colors).WithMany(e => e.SneakerColors);
             entity.Property(e => e.Coloration).IsRequired().HasMaxLength(200);
+            entity.Property(e => e.Price).HasPrecision(6, 2).IsRequired();
         });
 
         modelBuilder.Entity<SneakerPhoto>(entity =>
@@ -134,14 +134,6 @@ public class StoreDbContext : DbContext
             entity.HasOne(e => e.SneakerColor).WithMany(e => e.SneakerProducts).HasForeignKey(e => e.SneakerColorId);
             entity.HasIndex(e => e.SneakerColorId);
             entity.HasOne(e => e.Stock).WithOne(e => e.SneakerProduct);
-        });
-
-        modelBuilder.Entity<SneakerToSale>(entity =>
-        {
-            entity.HasKey(e => e.Id);
-            entity.HasOne(e => e.SneakerProduct).WithMany(e => e.SneakerToSales).HasForeignKey(e => e.SneakerProductId);
-            entity.HasIndex(e => e.SneakerProductId);
-            entity.Property(e => e.Price).HasPrecision(6, 2).IsRequired();
         });
 
         modelBuilder.Entity<Stock>(entity =>
@@ -177,8 +169,8 @@ public class StoreDbContext : DbContext
             entity.Property(e => e.Amount).IsRequired();
             entity.HasOne(e => e.Account).WithMany(c => c.Carts).HasForeignKey(e => e.AccountId);
             entity.HasIndex(e => e.AccountId);
-            entity.HasOne(e => e.SneakerToSale).WithMany(e => e.Carts).HasForeignKey(e => e.SneakerToSaleId);
-            entity.HasIndex(e => e.SneakerToSaleId);
+            entity.HasOne(e => e.SneakerProduct).WithMany(c => c.Carts).HasForeignKey(e => e.SneakerProductId);
+            entity.HasIndex(e => e.SneakerProductId);
         });
 
         modelBuilder.Entity<Review>(entity =>

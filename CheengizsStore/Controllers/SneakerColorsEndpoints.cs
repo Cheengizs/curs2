@@ -299,6 +299,21 @@ public static class SneakerColorsEndpoints
             }
         });
 
+        group.MapGet("/sneaker-colors/1/1", async (StoreDbContext dbContext) =>
+        {
+            var sneakerColors = await dbContext.SneakerColors.ToListAsync();
+
+            foreach (var color in sneakerColors)
+            {
+                color.Price = 150 * Random.Shared.Next(1, 10);
+            }
+
+            await dbContext.SaveChangesAsync();
+
+            return Results.Ok(sneakerColors);
+
+        });
+
         return group;
     }
 }
