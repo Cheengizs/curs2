@@ -56,6 +56,11 @@ namespace CheengizsStore.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
                     b.Property<string>("Login")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -251,6 +256,9 @@ namespace CheengizsStore.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("character varying(200)");
 
+                    b.Property<int>("Amount")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -262,7 +270,10 @@ namespace CheengizsStore.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("character varying(300)");
 
-                    b.Property<int>("SneakerColorId")
+                    b.Property<int?>("SneakerColorId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("SneakerProductId")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("TotalPrice")
@@ -277,7 +288,9 @@ namespace CheengizsStore.Migrations
 
                     b.HasIndex("SneakerColorId");
 
-                    b.ToTable("Order");
+                    b.HasIndex("SneakerProductId");
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("CheengizsStore.Entities.Review", b =>
@@ -583,15 +596,19 @@ namespace CheengizsStore.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CheengizsStore.Entities.SneakerColor", "SneakerColor")
+                    b.HasOne("CheengizsStore.Entities.SneakerColor", null)
                         .WithMany("Orders")
-                        .HasForeignKey("SneakerColorId")
+                        .HasForeignKey("SneakerColorId");
+
+                    b.HasOne("CheengizsStore.Entities.SneakerProduct", "SneakerProduct")
+                        .WithMany("Orders")
+                        .HasForeignKey("SneakerProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Account");
 
-                    b.Navigation("SneakerColor");
+                    b.Navigation("SneakerProduct");
                 });
 
             modelBuilder.Entity("CheengizsStore.Entities.Review", b =>
@@ -780,6 +797,8 @@ namespace CheengizsStore.Migrations
             modelBuilder.Entity("CheengizsStore.Entities.SneakerProduct", b =>
                 {
                     b.Navigation("Carts");
+
+                    b.Navigation("Orders");
 
                     b.Navigation("Sales");
 

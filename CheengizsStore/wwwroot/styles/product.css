@@ -1,3 +1,28 @@
+/* Toast уведомление */
+.toast {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #333;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  z-index: 1000;
+  font-size: 16px;
+}
+
+/* Показ тоста */
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -245,6 +270,70 @@ footer ul li a:hover::after {
 .product-comments h3 {
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.product-actions {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity-selector {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 130px;
+}
+
+.qty-btn {
+  background: #f0f0f0;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.qty-btn:hover {
+  background: #ddd;
+}
+
+.qty-input {
+  width: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.qty-input::-webkit-inner-spin-button,
+.qty-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Для Firefox */
+.qty-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.add-to-cart-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+}
+.add-to-cart-btn:hover {
+  background-color: #333;
 }
 
 .comments-list {

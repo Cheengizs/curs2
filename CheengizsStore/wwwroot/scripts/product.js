@@ -84,6 +84,7 @@ function renderProduct(product) {
         .forEach((b) => b.classList.remove("selected"));
       btn.classList.add("selected");
       console.log(`Выбран размер: ${size.rus_size}`);
+      order["sizeId"] = size.id;
     });
 
     const tooltip = document.createElement("span");
@@ -97,12 +98,6 @@ function renderProduct(product) {
 
   // Комментарии (заглушка)
   commentsList.innerHTML = "";
-  //   product.comments.forEach(({ user, text }) => {
-  //     const c = document.createElement("div");
-  //     c.className = "comment";
-  //     c.innerHTML = `<strong>${user}:</strong> <p>${text}</p>`;
-  //     commentsList.appendChild(c);
-  //   });
 
   // Отправка комментария
   commentForm.addEventListener("submit", (e) => {
@@ -138,6 +133,8 @@ async function getSneakerById(api) {
 const params = new URLSearchParams(window.location.search);
 const id = params.get("productId");
 
+let order = { sizeId: NaN, sneakerColorId: id, amount: 1 };
+
 async function loadProduct() {
   try {
     const product = await getSneakerById(
@@ -151,3 +148,69 @@ async function loadProduct() {
 }
 
 loadProduct();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const qtyInput = document.querySelector(".qty-input");
+  const btnMinus = document.querySelector(".qty-btn.minus");
+  const btnPlus = document.querySelector(".qty-btn.plus");
+
+  btnMinus.addEventListener("click", () => {
+    let value = parseInt(qtyInput.value) || 1;
+    if (value > 1) qtyInput.value = value - 1;
+    order["amount"] = qtyInput.value;
+  });
+
+  btnPlus.addEventListener("click", () => {
+    let value = parseInt(qtyInput.value) || 1;
+    qtyInput.value = value + 1;
+    order["amount"] = qtyInput.value;
+  });
+});
+
+const addToCart = document.querySelector(".add-to-cart-btn");
+addToCart.addEventListener("click", async () => {
+  console.log(order);
+  if (Number.isNaN(order["sizeId"])) {
+    showToast("Выберите размер для добавления в корзину");
+    return;
+  }
+  const token = localStorage.getItem("jwtToken");
+
+  fetch("http://192.168.1.107:5212/api/v1/cart", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`, // Вставляем токен сюда
+    },
+    body: JSON.stringify(order),
+  })
+    .then((response) => {
+      if (response.status === 401) {
+        // Если сервер ответил 401, значит неавторизован, можно перенаправить на страницу логина
+        window.location.href = "/account/login.html";
+      } else if (!response.ok) {
+        showToast("Этот товар уже есть в корзине");
+        return response.json().then((err) => {
+          console.error("Ошибка:", err);
+        });
+      } else {
+        return response.json().then((data) => {
+          showToast("Добавлено в корзину!");
+          console.log("Успех:", data);
+        });
+      }
+    })
+    .catch((error) => {
+      console.error("Ошибка сети:", error);
+    });
+});
+
+function showToast(message) {
+  const toast = document.getElementById("custom-toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3000); // Показывается 3 секунды
+}

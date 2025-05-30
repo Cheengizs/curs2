@@ -9,12 +9,44 @@
       "PackagePath": "staticwebassets\\about.html"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\account.html",
+      "PackagePath": "staticwebassets\\account\\account.html"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\login.html",
       "PackagePath": "staticwebassets\\account\\login.html"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\register.html",
       "PackagePath": "staticwebassets\\account\\register.html"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\scripts\\account.js",
+      "PackagePath": "staticwebassets\\account\\scripts\\account.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\scripts\\login.js",
+      "PackagePath": "staticwebassets\\account\\scripts\\login.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\scripts\\register.js",
+      "PackagePath": "staticwebassets\\account\\scripts\\register.js"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\styles\\account.css",
+      "PackagePath": "staticwebassets\\account\\styles\\account.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\styles\\login.css",
+      "PackagePath": "staticwebassets\\account\\styles\\login.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\account\\styles\\register.css",
+      "PackagePath": "staticwebassets\\account\\styles\\register.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\catalog.html",
@@ -353,6 +385,10 @@
       "PackagePath": "staticwebassets\\product.html"
     },
     {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\cart.js",
+      "PackagePath": "staticwebassets\\scripts\\cart.js"
+    },
+    {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\scripts\\catalog.js",
       "PackagePath": "staticwebassets\\scripts\\catalog.js"
     },
@@ -375,6 +411,10 @@
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\about.css",
       "PackagePath": "staticwebassets\\styles\\about.css"
+    },
+    {
+      "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\cart.css",
+      "PackagePath": "staticwebassets\\styles\\cart.css"
     },
     {
       "Id": "D:\\CheengizsStore\\CheengizsStore\\CheengizsStore\\wwwroot\\styles\\catalog.css",

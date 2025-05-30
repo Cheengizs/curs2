@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CheengizsStore - Аккаунт</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="styles/account.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="/main.html">CheengizsStore</a>
+        </div>
+        <nav class="main-nav">
+          <a href="/news.html">Новости</a>
+          <a href="/catalog.html">Каталог</a>
+          <a href="/about.html">О нас</a>
+          <a href="/contacts.html">Контакты</a>
+        </nav>
+        <div class="header-icons">
+          <i class="fas fa-search"></i>
+          <a href="/cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="/account.html"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <section class="account-section">
+        <div class="container">
+          <h1>Личный кабинет</h1>
+
+          <!-- User Info -->
+          <div class="user-info">
+            <h2>Информация пользователя</h2>
+            <p><strong>Логин:</strong></p>
+            <p class="user-name">user123</p>
+            <p><strong>Email:</strong></p>
+            <p class="email-lol">user@example.com</p>
+            <p class="createdAt-lol"></p>
+          </div>
+
+          <!-- Orders Section (empty for dynamic loading) -->
+          <div class="user-orders">
+            <h2>Ближайшие заказы</h2>
+            <!-- Здесь динамически будут подгружаться заказы -->
+            <div id="orders-container"></div>
+          </div>
+        </div>
+        <button class="logout-button">Выйти из аккаунта</button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>CheengizsStore</h2>
+          <p>Оригинальная обувь. Быстрая доставка. Надёжный магазин.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Мы в соцсетях</h3>
+          <div class="social-icons">
+            <a
+              href="https://t.me/yourchannel"
+              target="_blank"
+              aria-label="Telegram"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              href="https://youtube.com/yourchannel"
+              target="_blank"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://instagram.com/yourprofile"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CheengizsStore — Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="/account/scripts/account.js"></script>
+  </body>
+</html>

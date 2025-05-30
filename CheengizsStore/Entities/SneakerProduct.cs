@@ -11,4 +11,6 @@ public class SneakerProduct
     public Stock Stock { get; set; } 
     public List<Sale> Sales { get; set; }
     public List<Cart> Carts { get; set; }
+    
+    public List<Order> Orders { get; set; }
 }

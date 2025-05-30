@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace CheengizsStore.AuthOptions;
 
-public record AuthOptions(string Login, string Password);
+public record AuthOptions(string Login, string Password, string Email);
 
 public class AuthJwtOptions
 {

@@ -142,6 +142,7 @@ public static class CatalogEndpoints
                     photos = sneakerColor.SneakerPhotos.Select(p => p.PhotoPath).ToList(),
                     sizes = sneakerColor.SneakerProducts.Select(sp => new
                     {
+                        id = sp.SizeId,
                         rus_size = sp.Size.RusSize,
                         us_size = sp.Size.UsSize,
                         uk_size = sp.Size.UkSize,

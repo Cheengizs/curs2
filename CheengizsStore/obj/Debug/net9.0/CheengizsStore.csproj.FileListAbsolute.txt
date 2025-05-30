@@ -139,8 +139,6 @@ D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\Microsoft.Ident
 D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\CheengizsStore.staticwebassets.runtime.json
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\lw60tb4zrb-u4den3vydk.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\ballrs4d36-i5ow4i88e4.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\frr3l1e6gy-up3kz40itg.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\3qgmymm4bl-hzinacs5kh.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\bin\Debug\net9.0\Newtonsoft.Json.dll
@@ -152,9 +150,6 @@ D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\7ebu
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\fulh2tlixj-ru3fyzkh4d.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\CheengizsStore.sourcelink.json
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\wq121e3k0c-d33wwxfltk.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\fv76umajxa-4zlmf1qp8y.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\7clf3nb9op-tbgc2z73qx.gz
-D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\j5scr74v80-0catozxa9d.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\er8qrd91k4-27t9d0vq4o.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\yphdoydqz6-vfap2wbnce.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\16fb3tepge-gmrvsnkbb0.gz
@@ -163,3 +158,18 @@ D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\0lrp
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\3echa8oax9-41gb5oh0y2.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\3yrhmtgkk6-324v6lavz3.gz
 D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\6juqk401bt-5j8ydyjetf.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\fv76umajxa-hywg9e4s5u.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\7clf3nb9op-qq4p6nd9es.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\1cjmc2hpch-6qtqo3ke3s.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\uvxcalto7m-7ei4japlqf.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\j7rswpo4pj-49yjf3oopt.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\lw60tb4zrb-z3v18130wc.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\ballrs4d36-erjm9o5v2y.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\frt0e4xd4d-rgqvaeax7n.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\txx7v9xulq-4695xmlesz.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\iaayw8bfkb-0b0cuhlb80.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\kuwa8dju2m-p2rs1mofgl.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\j5scr74v80-4t51wshocr.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\ijuvrmhleg-wzhu1akxn0.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\xytrmv7w1z-8ok67iwhd8.gz
+D:\CheengizsStore\CheengizsStore\CheengizsStore\obj\Debug\net9.0\compressed\m8hl0s458h-9nobxe4nws.gz

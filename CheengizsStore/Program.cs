@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using CheengizsStore.Controllers;
+using CheengizsStore.RequestDTOs;
 using CheengizsStore.Services;
 
 
@@ -72,52 +73,58 @@ app.MapPost("/api/v1/register", async (StoreDbContext dbContext, AuthOptions aut
     string passwRegex = @"^[a-zA-Z0-9!@#$%^&*()]+$";
     if (authOptions.Password == "" || authOptions.Password.Length < 8 ||
         !Regex.IsMatch(authOptions.Password, passwRegex))
-        return Results.BadRequest("Невалидный пароль");
+        return Results.BadRequest(new { error = "Невалидный пароль" });
 
-    var account = dbContext.Accounts.FirstOrDefault(acc => acc.Login == authOptions.Login);
+    var account = await dbContext.Accounts.FirstOrDefaultAsync(acc => acc.Login == authOptions.Login);
     if (account != null)
-        return Results.BadRequest("Аккаунт уже существует");
+        return Results.BadRequest(new { error = "Аккаунт уже существует" });
 
     account = new Account()
     {
         Login = authOptions.Login,
         PasswordHash = BCrypt.Net.BCrypt.HashPassword(authOptions.Password),
         CreatedAt = DateTime.UtcNow,
+        Email = authOptions.Email,
     };
     try
     {
-        dbContext.Accounts.Add(account);
-        dbContext.SaveChanges();
+        await dbContext.Accounts.AddAsync(account);
+        await dbContext.SaveChangesAsync();
     }
     catch (Exception e)
     {
-        return Results.BadRequest(e.Message);
+        return Results.BadRequest(new { error = e.Message });
     }
 
-    return Results.Redirect("account/login");
+    return Results.Ok("norm");
 });
 
-app.MapPost("/api/v1/login", async Task<IResult> (StoreDbContext dbContext, AuthOptions authOptions) =>
+app.MapPost("/api/v1/login", async Task<IResult> (StoreDbContext dbContext, LoginRequestDTO dto) =>
 {
-    var account = dbContext.Accounts.FirstOrDefault(acc => acc.Login == authOptions.Login);
+    var account = await dbContext.Accounts.FirstOrDefaultAsync(acc => acc.Login == dto.Login);
 
     if (account == null)
         return Results.BadRequest("Не найдено такого аккаунта");
 
-    if (!BCrypt.Net.BCrypt.Verify(authOptions.Password, account.PasswordHash))
+    if (!BCrypt.Net.BCrypt.Verify(dto.Password, account.PasswordHash))
         return Results.Unauthorized();
 
-    var claims = new List<Claim>() { new Claim(ClaimTypes.Name, account.Login) };
+    var claims = new List<Claim>()
+    {
+        new Claim(ClaimTypes.Name, account.Login),
+        new Claim(ClaimTypes.NameIdentifier, account.Id.ToString()),
+        new Claim(ClaimTypes.Email, account.Email)
+    };
 
     var jwtToken = new JwtSecurityToken(
         issuer: builder.Configuration["JwtConfig:Issuer"],
         audience: builder.Configuration["JwtConfig:Audience"],
         claims: claims,
-        expires: DateTime.Now.AddHours(1),
+        expires: DateTime.Now.AddHours(8),
         signingCredentials: new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256)
     );
 
-    return Results.Ok(new JwtSecurityTokenHandler().WriteToken(jwtToken));
+    return Results.Ok(new {token = new JwtSecurityTokenHandler().WriteToken(jwtToken)});
 });
 
 app.MapGroup("/api/v1").MapColorEndpoints();
@@ -146,7 +153,13 @@ app.MapGroup("/api/v1/sneaker-photo").MapSneakerPhotosEndpoints();
 
 app.MapGroup("/api/v1/catalog").MapCatalogEndpoints();
 
+app.MapGroup("/api/v1/cart").MapCartsEndpoints();
+
+app.MapGroup("/api/v1/order").MapOrdersEndpoints();
+
 app.MapGroup("/api/v1/stocks").MapStocksEndpoints();
+
+app.MapGroup("/api/v1/account").MapAccountsEndpoints();
 
 app.MapGroup("/api/v1/email").MapEmailEnpdpoints();
 

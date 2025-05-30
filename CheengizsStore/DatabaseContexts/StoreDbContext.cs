@@ -27,7 +27,7 @@ public class StoreDbContext : DbContext
     public DbSet<SneakerType> SneakerTypes { get; set; }
     public DbSet<Stock> Stocks { get; set; }
     public DbSet<MailMessage> MailMessages { get; set; }
-    
+    public DbSet<Order> Orders { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Country>(entity =>
@@ -162,6 +162,7 @@ public class StoreDbContext : DbContext
             entity.HasIndex(e => e.Login).IsUnique();
             entity.Property(e => e.CreatedAt).IsRequired();
             entity.Property(e => e.PasswordHash).HasMaxLength(1000).IsRequired();
+            entity.Property(e => e.Email).HasMaxLength(200).IsRequired();
         });
 
         modelBuilder.Entity<Cart>(entity =>
@@ -194,7 +195,7 @@ public class StoreDbContext : DbContext
             entity.Property(e => e.TotalPrice).HasPrecision(6, 2).IsRequired();
             entity.HasOne(e => e.Account).WithMany(e => e.Orders).HasForeignKey(e => e.AccountId);
             entity.HasIndex(e => e.AccountId);
-            entity.HasOne(e => e.SneakerColor).WithMany(e => e.Orders).HasForeignKey(e => e.SneakerColorId);
+            entity.HasOne(e => e.SneakerProduct).WithMany(e => e.Orders).HasForeignKey(e => e.SneakerProductId);
         });
 
         modelBuilder.Entity<MailMessage>(entity =>

@@ -1,47 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <title>Регистрация — CheengizsStore</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="styles/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+  <div id="custom-toast" class="toast"></div>
   <body>
-    <input placeholder="login" type="text" class="login" />
-    <input type="text" class="password" />
-    <button class="sendOptions">Ляпни сука</button>
+    <header class="site-header">
+      <div class="container">
+        <div class="logo">
+          <a href="main.html">CheengizsStore</a>
+        </div>
+        <nav class="main-nav">
+          <a href="news.html">Новости</a>
+          <a href="catalog.html">Каталог</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="header-icons">
+          <i class="fas fa-search"></i>
+          <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="account.html"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+    </header>
 
-    <script>
-      document
-        .querySelector(".sendOptions")
-        .addEventListener("click", async () => {
-          const login = document.querySelector(".login").value;
-          const password = document.querySelector(".password").value;
+    <main>
+      <div class="register-container">
+        <div class="register-box">
+          <h1>Привет, модник</h1>
+          <form action="main.html" method="POST">
+            <input
+              type="text"
+              name="username"
+              placeholder="Имя пользователя"
+              required
+            />
+            <input type="email" name="email" placeholder="Email" required />
+            <input
+              type="password"
+              name="password"
+              placeholder="Пароль"
+              required
+            />
 
-          try {
-            const response = await fetch(
-              "http://localhost:5212/api/v1/register",
-              {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify({ login, password }),
-              }
-            );
+            <!-- CAPTCHA section -->
+            <div class="captcha-section">
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LepTk8rAAAAABz1-uBIqPunhPxHzwCduhiS0AmH"
+              ></div>
+            </div>
 
-            const text = await response.text(); // читаем как текст
+            <button type="submit">Зарегистрироваться</button>
+          </form>
+          <p class="login-link">
+            Уже есть аккаунт? <a href="login.html">Войти</a>
+          </p>
+        </div>
+      </div>
+    </main>
 
-            try {
-              const json = text ? JSON.parse(text) : null;
-              alert("Ответ сервера:\n" + JSON.stringify(json, null, 2));
-            } catch {
-              alert("Не JSON. Ответ сервера:\n" + text);
-            }
-          } catch (err) {
-            console.error("Ошибка при запросе:", err);
-            alert("Ошибка запроса: " + err.message);
-          }
-        });
-    </script>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>CheengizsStore</h2>
+          <p>Оригинальная обувь. Быстрая доставка. Надёжный магазин.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Разделы</h3>
+          <ul>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Мы в соцсетях</h3>
+          <div class="social-icons">
+            <a href="https://t.me/yourchannel" target="_blank"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a href="https://youtube.com/yourchannel" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://instagram.com/yourprofile" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 CheengizsStore — Все права защищены.</p>
+      </div>
+    </footer>
+    <script src="scripts/register.js"></script>
   </body>
 </html>
